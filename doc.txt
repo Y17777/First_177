@@ -1,1 +1,1 @@
-18 -Hi, world
+18 - Hi, world
