@@ -1,0 +1,19 @@
+class User:
+    def __init__(self, id, name, score):
+        self.id = id
+        self.name = name
+        self.score = score
+
+    def setUser(self, hum):
+        self.hum = hum
+
+    def getUser(self):
+        return self.hum
+    
+    def s_data(self):
+        some_name = input("Введите имя: ")
+        self.name = some_name
+
+user = User(1, "Artur", 14)
+
+print(dir(user))
